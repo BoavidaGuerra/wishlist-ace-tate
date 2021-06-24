@@ -48,7 +48,7 @@ export default function App() {
               removeFavourite={removeFavourite}
             />
           </Route>
-          <Route exact path="/wishlist">
+          <Route path="/wishlist">
             <Wishlist
               frames={frames}
               favourites={favourites}
