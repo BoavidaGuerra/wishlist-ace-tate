@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/wishlist-ace-tate/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/wishlist-ace-tate/static/js/main.d450835d.chunk.js",
-    "main.js.map": "/wishlist-ace-tate/static/js/main.d450835d.chunk.js.map",
-    "runtime-main.js": "/wishlist-ace-tate/static/js/runtime-main.99fe346a.js",
-    "runtime-main.js.map": "/wishlist-ace-tate/static/js/runtime-main.99fe346a.js.map",
-    "static/js/2.acc6529f.chunk.js": "/wishlist-ace-tate/static/js/2.acc6529f.chunk.js",
-    "static/js/2.acc6529f.chunk.js.map": "/wishlist-ace-tate/static/js/2.acc6529f.chunk.js.map",
-    "static/js/3.ae8037ad.chunk.js": "/wishlist-ace-tate/static/js/3.ae8037ad.chunk.js",
-    "static/js/3.ae8037ad.chunk.js.map": "/wishlist-ace-tate/static/js/3.ae8037ad.chunk.js.map",
+    "main.css": "/wishlist-ace-tate/static/css/main.095286d8.chunk.css",
+    "main.js": "/wishlist-ace-tate/static/js/main.8f38f615.chunk.js",
+    "main.js.map": "/wishlist-ace-tate/static/js/main.8f38f615.chunk.js.map",
+    "runtime-main.js": "/wishlist-ace-tate/static/js/runtime-main.bf899919.js",
+    "runtime-main.js.map": "/wishlist-ace-tate/static/js/runtime-main.bf899919.js.map",
+    "static/js/2.61eb01e2.chunk.js": "/wishlist-ace-tate/static/js/2.61eb01e2.chunk.js",
+    "static/js/2.61eb01e2.chunk.js.map": "/wishlist-ace-tate/static/js/2.61eb01e2.chunk.js.map",
+    "static/js/3.cc0f1a39.chunk.js": "/wishlist-ace-tate/static/js/3.cc0f1a39.chunk.js",
+    "static/js/3.cc0f1a39.chunk.js.map": "/wishlist-ace-tate/static/js/3.cc0f1a39.chunk.js.map",
     "index.html": "/wishlist-ace-tate/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/wishlist-ace-tate/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.acc6529f.chunk.js.LICENSE.txt": "/wishlist-ace-tate/static/js/2.acc6529f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/wishlist-ace-tate/static/media/logo.6ce24c58.svg"
+    "static/css/main.095286d8.chunk.css.map": "/wishlist-ace-tate/static/css/main.095286d8.chunk.css.map",
+    "static/js/2.61eb01e2.chunk.js.LICENSE.txt": "/wishlist-ace-tate/static/js/2.61eb01e2.chunk.js.LICENSE.txt",
+    "static/media/btn_like.9319ea68.svg": "/wishlist-ace-tate/static/media/btn_like.9319ea68.svg",
+    "static/media/btn_like_active.c85b155f.svg": "/wishlist-ace-tate/static/media/btn_like_active.c85b155f.svg",
+    "static/media/logo.c7ae4593.svg": "/wishlist-ace-tate/static/media/logo.c7ae4593.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.99fe346a.js",
-    "static/js/2.acc6529f.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.d450835d.chunk.js"
+    "static/js/runtime-main.bf899919.js",
+    "static/js/2.61eb01e2.chunk.js",
+    "static/css/main.095286d8.chunk.css",
+    "static/js/main.8f38f615.chunk.js"
   ]
 }
