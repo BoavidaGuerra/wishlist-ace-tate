@@ -26,21 +26,21 @@ export default function App() {
   }
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <nav>
           <ul>
             <li>
-              <Link to="/wishlist-ace-tate/">Browse Frames</Link>
+              <Link to="/">Browse Frames</Link>
             </li>
             <li>
-              <Link to="/wishlist-ace-tate/wishlist">Wishlist</Link>
+              <Link to="/wishlist">Wishlist</Link>
             </li>
           </ul>
         </nav>
 
         <Switch>
-          <Route exact path="/wishlist-ace-tate/">
+          <Route exact path="/">
             <FramesList
               frames={frames}
               favourites={favourites}
@@ -48,7 +48,7 @@ export default function App() {
               removeFavourite={removeFavourite}
             />
           </Route>
-          <Route path="/wishlist-ace-tate/wishlist">
+          <Route exact path="/wishlist">
             <Wishlist
               frames={frames}
               favourites={favourites}

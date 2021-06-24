@@ -11,7 +11,7 @@ export default function Wishlist(props) {
       favourites.includes(id) && frame.push({ id, name, color, frontImageUrl });
       return frame;
   }, []);
-
+  console.log(location.pathname)
   return (
     <div className="main">
       <div className="wishlist product-header">
