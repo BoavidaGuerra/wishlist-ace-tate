@@ -1,7 +1,7 @@
 # Live Version
 
 View a live demo of Ace and Tate Wishlist at:
-[https://boavidaguerra.github.io/wishlist-ace-tate/](https://boavidaguerra.github.io/wishlist-ace-tate/)
+[https://boavidaguerra.github.io/](https://boavidaguerra.github.io/wishlist-ace-tate/)
 
 
 # Running Ace and Tate Wishlist locally in development mode

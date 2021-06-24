@@ -31,16 +31,16 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Browse Frames</Link>
+              <Link to="/wishlist-ace-tate/">Browse Frames</Link>
             </li>
             <li>
-              <Link to="/wishlist">Wishlist</Link>
+              <Link to="/wishlist-ace-tate/wishlist">Wishlist</Link>
             </li>
           </ul>
         </nav>
 
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/wishlist-ace-tate/">
             <FramesList
               frames={frames}
               favourites={favourites}
@@ -48,7 +48,7 @@ export default function App() {
               removeFavourite={removeFavourite}
             />
           </Route>
-          <Route path="/wishlist">
+          <Route path="/wishlist-ace-tate/wishlist">
             <Wishlist
               frames={frames}
               favourites={favourites}
