@@ -1,25 +1,61 @@
-import logo from './logo.svg';
+import React from 'react'
+import useStoreState from './useStoreState';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import fetchFrames from './fetchFrames';
+import FramesList from './FramesList';
+import Wishlist from './Wishlist';
 import './App.css';
 
-function App() {
+export default function App() {
+  const [favourites, setFavourites] = useStoreState([], "favourites");
+  const { frames } = fetchFrames();
+
+  const addFavourite = (frameId) => {
+    setFavourites(prevFavourites => {
+      return [...new Set([...prevFavourites, frameId])]
+    })
+  }
+
+  const removeFavourite = (frameId) => {
+    setFavourites(favourites.filter((item) => item !== frameId))
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Browse Frames</Link>
+            </li>
+            <li>
+              <Link to="/wishlist">Wishlist</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Switch>
+          <Route exact path="/">
+            <FramesList
+              frames={frames}
+              favourites={favourites}
+              addFavourite={addFavourite}
+              removeFavourite={removeFavourite}
+            />
+          </Route>
+          <Route path="/wishlist">
+            <Wishlist
+              frames={frames}
+              favourites={favourites}
+            />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;
