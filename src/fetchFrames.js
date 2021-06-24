@@ -4,15 +4,20 @@ import axios from 'axios';
 export default function fetchFrames() {
   const url = "https://www.aceandtate.show/torii/catalog/v1/products/exploded/frames?country-code=nl&language-code=en"
   // const url = "https://www.aceandtate.show/torii/catalog/v1/products/filter?sku=neil-satin-silver&sku=pierce-fizz&country-code=nl&language-code=en"
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [frames, setFrames] = useState([]);
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [loading, setLoading] = useState(true);
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [error, setError] = useState(false);
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     setFrames([])
   }, [])
 
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     console.log("I was fetched");
     setLoading(true);
