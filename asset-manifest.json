@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wishlist-ace-tate/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/wishlist-ace-tate/static/js/main.d450835d.chunk.js",
+    "main.js.map": "/wishlist-ace-tate/static/js/main.d450835d.chunk.js.map",
+    "runtime-main.js": "/wishlist-ace-tate/static/js/runtime-main.99fe346a.js",
+    "runtime-main.js.map": "/wishlist-ace-tate/static/js/runtime-main.99fe346a.js.map",
+    "static/js/2.acc6529f.chunk.js": "/wishlist-ace-tate/static/js/2.acc6529f.chunk.js",
+    "static/js/2.acc6529f.chunk.js.map": "/wishlist-ace-tate/static/js/2.acc6529f.chunk.js.map",
+    "static/js/3.ae8037ad.chunk.js": "/wishlist-ace-tate/static/js/3.ae8037ad.chunk.js",
+    "static/js/3.ae8037ad.chunk.js.map": "/wishlist-ace-tate/static/js/3.ae8037ad.chunk.js.map",
+    "index.html": "/wishlist-ace-tate/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/wishlist-ace-tate/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.acc6529f.chunk.js.LICENSE.txt": "/wishlist-ace-tate/static/js/2.acc6529f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/wishlist-ace-tate/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99fe346a.js",
+    "static/js/2.acc6529f.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.d450835d.chunk.js"
+  ]
+}
