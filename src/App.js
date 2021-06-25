@@ -1,19 +1,19 @@
 import React from 'react'
-import useStoreState from './useStoreState';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import fetchFrames from './fetchFrames';
+import useStoreState from './useStoreState';
+import useFetchFrames from './useFetchFrames';
 import FramesList from './FramesList';
 import Wishlist from './Wishlist';
 import './App.css';
 
 export default function App() {
   const [favourites, setFavourites] = useStoreState([], "favourites");
-  const { frames } = fetchFrames();
+  const { frames } = useFetchFrames();
 
   const addFavourite = (frameId) => {
     setFavourites(prevFavourites => {

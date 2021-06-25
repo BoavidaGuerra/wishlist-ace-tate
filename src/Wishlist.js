@@ -26,7 +26,7 @@ export default function Wishlist(props) {
             key={frame.id}
             frame={frame}
             location={location.pathname}
-            favourites={favourites}
+            // favourites={favourites} // don't need this
           />
         ))}
       </div>
