@@ -8,11 +8,6 @@ export default function useFetchFrames() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  // useEffect(() => {
-  //   setFrames([])
-  // }, [])
-
-
   useEffect(() => {
     console.log("I was fetched");
     setLoading(true);
